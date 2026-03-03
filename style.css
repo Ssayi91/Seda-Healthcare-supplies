@@ -117,28 +117,40 @@ nav a:hover {
 }
 
 /* ================= HERO ================= */
-
 .hero {
-  background: var(--light);
+  position: relative;
+  background: url('images/476789909_1270270251369018_6195992202510475664_n.jpg') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
   text-align: center;
-  padding: 6rem 0;
+  color: #fff;
 }
 
-.hero h1 {
-  font-size: 2.3rem;
-  max-width: 800px;
-  margin: 0 auto 1rem auto;
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.575);
 }
 
-.hero p {
-  max-width: 700px;
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 850px;
   margin: 0 auto;
 }
 
-.hero-buttons {
-  margin-top: 2rem;
+.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
 }
 
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #f0f0f0;
+}
 /* ================= BUTTONS ================= */
 
 .btn {
