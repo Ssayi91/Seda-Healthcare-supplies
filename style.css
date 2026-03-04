@@ -528,5 +528,15 @@ nav a:hover {
     font-size: 20px;
     line-height: 40px;
   }
+  .footer-bottom {
+    font-size: 0.8rem;       /* smaller text for small screens */
+    padding: 1rem 0.5rem;    /* horizontal padding */
+    line-height: 1.4;        /* tighter spacing */
+  }
+
+  .footer-bottom a {
+    display: inline-block;   /* ensures it wraps nicely */
+    word-break: break-word;  /* prevents overflow for long URLs */
+  }
 }
 }
