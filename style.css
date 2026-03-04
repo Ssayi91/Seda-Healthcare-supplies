@@ -437,10 +437,33 @@ nav a:hover {
 }
 
 .footer-bottom {
-  text-align: center;
-  padding: 1.5rem 0;
-  border-top: 1px solid #222;
-  margin-top: 2rem;
+  background-color: #111;      /* dark footer background */
+  color: #aaa;                 /* light text */
+  text-align: center;           /* center everything */
+  padding: 1rem 0;             /* vertical padding */
+  font-size: 0.9rem;           /* slightly smaller for footer */
+  border-top: 1px solid #222;  /* subtle separation */
+}
+.footer-bottom::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: var(--primary);
+  margin: 0.5rem auto 0.8rem;
+  border-radius: 2px;
+}
+.footer-bottom a {
+  color: var(--primary);        /* brand teal for links */
+  text-decoration: none;        /* remove underline */
+  font-weight: 600;             /* subtle emphasis */
+}
+
+.footer-bottom a:hover {
+  text-transform: uppercase;
+  font-weight: 600;   /* hover effect */
+  color: #3FA89A;               /* optional: reinforce brand color */
+  text-shadow: #010706 0px 0px 5px; /* subtle glow on hover */
 }
 
 /* WhatsApp Floating Button */
