@@ -15,7 +15,7 @@ menuToggle.addEventListener("click", () => {
   function moveCarousel() {
     index++;
 
-    if (index > items.length - 3) {
+    if (index > items.length - 4) {
       index = 0;
     }
 
