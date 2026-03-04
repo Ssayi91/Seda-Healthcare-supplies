@@ -144,8 +144,8 @@ nav a:hover {
 /* ================= HERO ================= */
 .hero {
   position: relative;
-  background: url('images/476789909_1270270251369018_6195992202510475664_n.jpg') center/cover no-repeat;
-  height: 60vh;
+  background: url('images/surgical-equipment.jpg') center/cover no-repeat;
+  height: 80vh;
   display: flex;
   align-items: center;
   text-align: center;
